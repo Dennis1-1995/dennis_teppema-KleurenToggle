@@ -1,0 +1,54 @@
+.nav {
+  position: fixed;
+  display: flexbox;
+  flex-wrap: wrap;
+  width: 250px;
+}
+#img-menu {
+  height: 48px;
+  display: block;
+  position: absolute;
+  cursor: pointer;
+}
+
+.nav ul {
+  padding-left: 0;
+}
+.nav ul li {
+  margin-bottom: 3px;
+}
+.nav-links {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+}
+.nav-links.show {
+  display: flex;
+  list-style: none;
+  margin-top: 50px;
+}
+#green-background {
+  background-color: green;
+}
+.nav-link {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+/* Link background color */
+#home {
+  background-color: lightgrey;
+}
+#nav-color-red {
+  background-color: red;
+}
+#nav-color-orange {
+  background-color: orange;
+}
+#nav-color-purple {
+  background-color: purple;
+}
+#nav-color-green {
+  background-color: green;
+}
